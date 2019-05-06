@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test6.TestActivity6">
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/behavior_test6_behavior"
+        android:background="@android:color/holo_blue_light">
+
+        <com.othershe.behaviortest.helper.NestedLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Hello Worln"
+                android:textColor="@android:color/white" />
+
+        </com.othershe.behaviortest.helper.NestedLinearLayout>
+    </FrameLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/behavior_test5textview_Recycler"></android.support.v7.widget.RecyclerView>
+
+
+</android.support.design.widget.CoordinatorLayout>
