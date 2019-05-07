@@ -8,51 +8,73 @@
     android:padding="10dp"
     tools:context="com.othershe.behaviortest.MainActivity">
 
-    <Button
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:onClick="test_one"
-        android:text="test-1" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test_two"
-        android:text="test-2" />
+        android:layout_height="match_parent">
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test_three"
-        android:text="test-3" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test_four"
-        android:text="test-4" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test_five"
-        android:text="test-5" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test6"
-        android:text="test-6" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="test_one"
+                android:text="test-1" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:onClick="test7"
-        android:text="test-7" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test_two"
+                android:text="test-2" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test_three"
+                android:text="test-3" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test_four"
+                android:text="test-4" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test_five"
+                android:text="test-5" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test6"
+                android:text="test-6" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test7"
+                android:text="test-7" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:onClick="test8"
+                android:text="test-8" />
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

@@ -20,7 +20,10 @@
 
     <string name="behavior_test7_behavior">com.othershe.behaviortest.test7.TestBehavior7</string>
     <string name="behavior_test6_behavior">com.othershe.behaviortest.test6.TestBehavior6</string>
-
+    <string name="behavior_test8_head">com.othershe.behaviortest.test8.TestHeaderBehavior8</string>
+    <string name="behavior_test8_scroller">com.othershe.behaviortest.test8.TestScrollerBehavior8</string>
+    <string name="behavior_test8_headerfloatbehavior">com.othershe.behaviortest.test8.HeaderFloatBehavior</string>
+    <string name="behavior_test8_headerscrollingbehavior">com.othershe.behaviortest.test8.HeaderScrollingBehavior</string>
 
     <string name="title_activity_test7">TestActivity7</string>
     <string name="large_text">

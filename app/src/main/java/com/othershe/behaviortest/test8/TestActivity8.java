@@ -1,4 +1,4 @@
-package com.othershe.behaviortest.test6;
+package com.othershe.behaviortest.test8;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,12 +11,12 @@ import com.othershe.behaviortest.mainpage.TypeAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestActivity6 extends AppCompatActivity {
+public class TestActivity8 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test6);
+        setContentView(R.layout.activity_test8);
 
         RecyclerView commentList = findViewById(R.id.recyc);
         List<String> list = new ArrayList<>();
@@ -29,34 +29,4 @@ public class TestActivity6 extends AppCompatActivity {
         commentList.setLayoutManager(layoutManager);
         commentList.setAdapter(adapter);
     }
-
-    /**
-     *  @Override
-     *     public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *     }
-     */
 }

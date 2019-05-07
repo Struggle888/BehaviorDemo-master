@@ -25,7 +25,8 @@
         <activity
             android:name=".test7.TestActivity7"
             android:label="@string/title_activity_test7"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".test8.TestActivity8"></activity>
     </application>
 
 </manifest>

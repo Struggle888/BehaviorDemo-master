@@ -11,7 +11,7 @@ import com.othershe.behaviortest.mainpage.TypeAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestActivity2 extends AppCompatActivity {
+public class TestActivity2 extends AppCompatActivity   {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -11,6 +11,7 @@ import com.othershe.behaviortest.mainpage.TestActivity3;
 import com.othershe.behaviortest.test5.Test5Activity;
 import com.othershe.behaviortest.test6.TestActivity6;
 import com.othershe.behaviortest.test7.TestActivity7;
+import com.othershe.behaviortest.test8.TestActivity8;
 import com.othershe.behaviortest.xiami.TestActivity4;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,11 +43,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, Test5Activity.class));
     }
 
-    public void test6(View v){
+    public void test6(View v) {
         startActivity(new Intent(this, TestActivity6.class));
     }
 
-    public void test7(View v){
+    public void test7(View v) {
         startActivity(new Intent(this, TestActivity7.class));
     }
+
+    public void test8(View v) {
+        startActivity(new Intent(this, TestActivity8.class));
+    }
+
 }
