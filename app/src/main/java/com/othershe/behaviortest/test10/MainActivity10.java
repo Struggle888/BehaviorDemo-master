@@ -113,6 +113,7 @@ public class MainActivity10 extends AppCompatActivity {
          */
 
         if (x == 1){
+            //asd
             return 1 ;
         }else {
             return x * fact(x-1);
