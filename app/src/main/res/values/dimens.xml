@@ -18,5 +18,7 @@
 
     <color name="colorInitFloatBackground">#b0ffffff</color>
     <color name="colorCollapsedFloatBackground">#e4e4e4</color>
-
+    <dimen name="main9title_height2">40dp</dimen>
+    <dimen name="main9title_height">-50dp</dimen>
+    <dimen name="main9title_height1">50dp</dimen>
 </resources>

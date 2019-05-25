@@ -25,6 +25,9 @@
     <string name="behavior_test8_headerfloatbehavior">com.othershe.behaviortest.test8.HeaderFloatBehavior</string>
     <string name="behavior_test8_headerscrollingbehavior">com.othershe.behaviortest.test8.HeaderScrollingBehavior</string>
 
+    <string name="main9behaviorheader">com.othershe.behaviortest.test9.MainBehaviorHeader</string>
+    <string name="MainBehaviorRecyc">com.othershe.behaviortest.test9.MainBehaviorRecyc</string>
+
     <string name="title_activity_test7">TestActivity7</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
